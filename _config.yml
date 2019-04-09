@@ -1,2 +1,4 @@
 name: SAR Bumblebees
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
