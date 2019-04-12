@@ -1,0 +1,6 @@
+- Fix missing favicon.ico
+- Add background picture
+- Add blog
+- Add headshots
+- Add bios
+- Group email address / Contact Us form
