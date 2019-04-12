@@ -4,39 +4,35 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+
 	</head>
 
 	<body>
-		<!-- Background image, from https://commons.wikimedia.org/wiki/File:Devastation_of_the_1906_earthquake.png -->
-		<style>
-			background-image: url("/images/Devastation_of_the_1906_earthquake.png");
-		</style>
-
 		<!-- Links at top of page -->
-		<nav>
+			<nav>
+		    		<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/purpose">Our Purpose</a></li>
+							<li><a href="/members">About Us</a></li>
+							<li><a href="/hardware">Hardware</a></li>
+							<li><a href="/sponsors">Sponsors</a></li>
+							<img src="/images/logo.png" alt="Logo" style="float:right;width:120px;height:120px;">
+		    		</ul>
+			</nav><!-- /.nav -->
+
+			<!-- Page Content -->
+			<div class="container">
+
+	    		{{ content }}
+
+			</div><!-- /.container -->
+
+			<!-- Footer with contact info -->
+			<footer>
 	    		<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/purpose">Our Purpose</a></li>
-						<li><a href="/members">About Us</a></li>
-						<li><a href="/hardware">Hardware</a></li>
-						<li><a href="/sponsors">Sponsors</a></li>
-						<img src="/images/logo.png" alt="Logo" style="float:right;width:120px;height:120px;">
-	    		</ul>
-		</nav>
-
-		<!-- Page Content -->
-		<div class="container">
-
-    		{{ content }}
-
-		</div><!-- /.container -->
-
-		<!-- Footer with contact info -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:cbeery@sdsu.edu">Email: cbeery@sdsu.edu</a></li>
-        		<li><a href="https://github.com/gameguy95/sarbumblebees">View our project on Github</a></li>
-			</ul>
-		</footer>
-	</body>
+	        		<li><a href="mailto:sarbumblebees@gmail.com">Email: sarbumblebees@gmail.com</a></li>
+	        		<li><a href="https://github.com/gameguy95/sarbumblebees">View our project on Github</a></li>
+				</ul>
+			</footer> <!-- /.footer -->
+		</body>
 </html>
