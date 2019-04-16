@@ -3,4 +3,4 @@
 - Add headshots
 - Add bios
 - Contact Us form
-- Put parts list on website. Format similar to bios?
+- Put parts list on website. Possible to integrate google sheet directly? 
