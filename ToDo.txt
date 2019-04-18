@@ -1,6 +1,0 @@
-- Fix missing favicon.ico
-- Add blog
-- Add headshots
-- Add bios
-- Contact Us form
-- Put parts list on website. Possible to integrate google sheet directly? 
