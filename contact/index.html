@@ -7,10 +7,16 @@ title: Contact Us - SAR Bumblebees
 	<p>We would love to hear your opinion/concerns, but website is a work in progress. Come back later.</p>
 
 	<form name="Contact Us" method="POST" action="https://formspree.io/sarbumblebees@gmail.com">
-  	Name: <input type="text" name="name" placeholder="Your name"><br />
-  	Email: <input type="email" name="_replyto" placeholder="Your email"><br />
-  	Message: <textarea name="message" placeholder="Type your message"></textarea><br />
-  	<button type="submit">Submit</button>
+  	<label for="name">Name:</label><br />
+		<input id="name" type="text" name="name" placeholder="Your name"><br />
+
+		<label for="email">Email:</label><br />
+		<input id="email" type="email" name="_replyto" placeholder="Your email"><br />
+
+		<label for="message">Message:</label><br />
+		<textarea id="message" name="message" placeholder="Type your message"></textarea><br />
+
+		<button type="submit">Submit</button>
   	<input type="hidden" name="_subject" value="New submission!" />
 	</form>
 
